@@ -42,7 +42,7 @@ boxplot(df$First, df$Second, df$Third, names=c("First sample", "Second sample", 
 hist(df$First)
 
 # controlling bins, color and labels
-hist(df$First, breaks = 10, xlab = "Length [mm]", 
+hist(df$First, breaks = 20, xlab = "Length [mm]", 
     main = "Histogram of length measurements of the first sample", col = "lightblue")
 
 # normality test if p > 0.05 data is normal
