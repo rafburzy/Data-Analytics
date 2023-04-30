@@ -1,7 +1,7 @@
 # Data Analysis in R
 
-This is a repository hosting scripts for data analysis using R, which are based on Six Sigma methodology.
-More details are available in the series of Medium articles 
+This is a repository hosting scripts for data analysis using R, which are based on Six Sigma methodology for contiunous data.
+My intention is to give a broader outline in the series of [Medium articles](https://medium.com/@rafburzy)
 
 At the moment the following projects are available:
 

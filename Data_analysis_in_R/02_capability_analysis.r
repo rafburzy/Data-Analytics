@@ -51,14 +51,14 @@ I_MR <- function(vector) {
     par(mfrow = c(1,1))
 }
 
-I_MR(df$Automat)
+I_MR(df$First)
 
 # capability study
 # mean value
-m <- mean(df$Automat)
+m <- mean(df$First)
 print(m)
 # standard deviation
-s <- sd(df$Automat)
+s <- sd(df$First)
 print(s)
 
 # calculation of Z value
@@ -71,10 +71,10 @@ Z <- min(Zu, Zl)
 print(Z)
 
 # plotting normal fit
-norm_fit <- dnorm(df$Automat, mean = m, sd = s)
-plot(df$Automat, norm_fit, xlab = "Opening time [ms]",
+norm_fit <- dnorm(df$First, mean = m, sd = s)
+plot(df$First, norm_fit, xlab = "Length [mm]",
     ylab="Density", xlim = c(LSL, USL), main = "Capability analysis")
-lines(df$Automat[order(df$Automat)], norm_fit[order(df$Automat)], col = "orange")
+lines(df$First[order(df$First)], norm_fit[order(df$First)], col = "orange")
 abline(v = m, lty = 2)
 abline(v = LSL, col="#750505")
 abline(v = USL, col="#750505")
