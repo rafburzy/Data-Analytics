@@ -27,7 +27,7 @@ head(df)
 str(df)
 summary(df)
 
-# I-MR chart
+# I-MR chart as a function
 I_MR <- function(vector) {
     # calculation of moving range
     k <- c(0)
