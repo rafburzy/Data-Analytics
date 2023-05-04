@@ -39,12 +39,13 @@ I_MR <- function(vector) {
     # plotting
     par(mfrow = c(1,2)) # 1 row, 2 columns
     # I-chart
-    plot(vector, xlab = "Observation", ylab = "Individual value", main = "I chart for")
+    plot(vector, xlab = "Observation", ylab = "Individual value", 
+    main = "I chart")
     abline(h = mean(vector), lty = 2)
     abline(h = mean(vector) + 2.66*MR,  col = "#750505")
     abline(h = mean(vector) - 2.66*MR,  col = "#750505")
     # MR chart
-    plot(k, xlab = "Observation", ylab = "Range value", main = "MR chart for")
+    plot(k, xlab = "Observation", ylab = "Range value", main = "MR chart")
     abline(h = MR, lty = 2)
     abline(h = 0, col =  "#750505")
     abline(h = 3.27 * MR, col =  "#750505")
@@ -62,8 +63,8 @@ s <- sd(df$First)
 print(s)
 
 # calculation of Z value
-USL <- 75
-LSL <- 50
+USL <- 90
+LSL <- 45
 Zu <- (USL - m)/s
 Zl <- (m - LSL)/s
 
