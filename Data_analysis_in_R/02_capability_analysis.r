@@ -7,9 +7,7 @@
 
 # loading required modules
 # if you don't have them installed uncomment next two lines
-# install.packages("tidyverse")
 # install.packages("httpgd")
-library("tidyverse")
 library("httpgd")
 
 # uploading the dataset

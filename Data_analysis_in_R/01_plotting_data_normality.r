@@ -7,9 +7,7 @@
 
 # loading required modules
 # if you don't have them installed uncomment next two lines
-# install.packages("tidyverse")
 # install.packages("httpgd")
-library("tidyverse")
 library("httpgd")
 
 # uploading the dataset
@@ -64,3 +62,4 @@ plot(df$First, norm_fit, xlab = "Length [mm]",
     ylab="Density")
 lines(df$First[order(df$First)], norm_fit[order(df$First)], col = "orange")
 grid()
+
