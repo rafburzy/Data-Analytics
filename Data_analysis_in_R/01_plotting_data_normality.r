@@ -6,7 +6,7 @@
 # ===============================================
 
 # loading required modules
-# if you don't have them installed uncomment next two lines
+# if you don't have them installed uncomment the next line
 # install.packages("httpgd")
 library("httpgd")
 
