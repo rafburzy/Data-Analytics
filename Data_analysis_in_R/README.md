@@ -9,5 +9,6 @@ At the moment the following projects are available:
 2. Capability analysis.
 3. Hypothesis testing - one sample t-test and groups comparing.
 4. Simple linear regression.
+5. Multiple linear regression.
 
 Feel free to explore and use the files.
